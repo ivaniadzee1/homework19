@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Big+Shoulders+Display:wght@800;900&family=Chivo&family=DM+Serif+Display&family=Hanken+Grotesk:wght@500;700;800&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;900&family=Red+Hat+Text:wght@700&family=Space+Mono:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/stars.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Text';
+    background-color:rgba(29, 30, 40, 1);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+h1{
+    width: 327px;
+    height: 48px;
+    font-family: Red Hat Text;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 7.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 50px;
+    
+}
+.countdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.days, .hours, .minutes, .second{
+    color: rgba(251, 94, 132, 1);
+}
+small{
+    color: rgba(131, 133, 169, 1);
+    font-family: Red Hat Text;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 9px;
+    letter-spacing: 2.9593749046325684px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+    top: 50%;
+    transform: translate( -50%);
+    left: 30px;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 120px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.ftn{
+   width: 100%;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
